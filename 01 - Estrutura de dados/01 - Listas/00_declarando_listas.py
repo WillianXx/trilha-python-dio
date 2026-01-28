@@ -36,3 +36,10 @@ pares = [n for n in numeros if n % 2 == 0]
 quadrado = [n**2 for n in numeros]
 print(pares)
 print(quadrado)
+
+numeros = [1,  30, 21, 2, 9, 65, 34]
+pares = []
+for n in numeros:
+    if n % 2 == 0:
+        pares.append(n)
+print(pares)
